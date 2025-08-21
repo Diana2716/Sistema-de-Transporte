@@ -9,9 +9,10 @@ public class Onibus extends Veiculo {
 
         @Override
         public float calcularTempo(float distancia) {
-            float velocidade = 60.0f; // km/h
-            float tempo = distancia / velocidade; // horas
-            float tempoParadas = (float) ((numeroParadas * 15.0f) / 80.0f); // converte 15min em horas
+            float velocidade = 60.0f; 
+            float tempo = distancia / velocidade; 
+            float tempoParadas = (float) ((numeroParadas * 15.0f) / 80.0f); 
             return tempo + tempoParadas;
         }
     }
+
