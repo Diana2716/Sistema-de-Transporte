@@ -6,7 +6,8 @@ public class Bicicleta extends Veiculo {
 
         @Override
         public float calcularTempo(float distancia) {
-            float velocidade = 20.0f; // km/h
+            float velocidade = 20.0f;
             return distancia / velocidade;
         }
 }
+
